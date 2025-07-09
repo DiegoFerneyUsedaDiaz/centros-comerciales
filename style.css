@@ -1,10 +1,10 @@
-/* Fuente y base */
+/* Reset y base */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
+
 body {
     font-family: 'Inter', sans-serif;
     background-color: #f9fafb;
@@ -55,6 +55,7 @@ body {
     position: relative;
     display: inline-block;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -65,15 +66,18 @@ body {
     border-radius: 8px;
     overflow: hidden;
 }
+
 .dropdown-content a {
     color: #333;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
+
 .dropdown-content a:hover {
     background-color: #f0f0f0;
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -89,6 +93,10 @@ body {
 section {
     margin-bottom: 60px;
     animation: fadeIn 0.8s ease-in;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
 /* Títulos */
@@ -113,10 +121,12 @@ h1, h2 {
 .contacto {
     text-align: center;
 }
+
 .contacto a {
     color: #2980b9;
     text-decoration: none;
 }
+
 .contacto a:hover {
     text-decoration: underline;
 }
@@ -132,3 +142,6 @@ h1, h2 {
         transform: translateY(0);
     }
 }
+
+
+
